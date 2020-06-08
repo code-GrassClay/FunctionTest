@@ -1,4 +1,4 @@
-package BaseKnowLedge;
+package com.codejie.BaseKnowLedge;
 /**
  * 
  * @author codejie
@@ -10,8 +10,11 @@ package BaseKnowLedge;
  * 	局部变量
  * 	成员变量
  * 	静态变量
+ * 常量：常量通常指固定的值
+ * 	常量的申明通常用final修饰
+ *  常量的命名通常用全部大写
  */
-public class Variable {
+public class Variable_Constant {
 	public static void main(String[] args) {
 		//申明一个变量
 		byte a;
@@ -23,5 +26,8 @@ public class Variable {
 		boolean f;
 		//申明多个变量
 		int g,h,i,j,k;
+		//常量的申明
+		final String A = "你好";
+		final double PI = 3.14;
 	}
 }
