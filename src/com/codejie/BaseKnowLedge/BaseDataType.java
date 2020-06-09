@@ -1,4 +1,4 @@
-package BaseKnowLedge;
+package com.codejie.BaseKnowLedge;
 /**
  * 
  * @author codejie

@@ -1,4 +1,4 @@
-package BaseKnowLedge;
+package com.codejie.BaseKnowLedge;
 
 public class Propaedeutics {
 	public static void main(String[] args) {
