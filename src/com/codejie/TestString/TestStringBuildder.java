@@ -1,5 +1,5 @@
 package com.codejie.TestString;
 
-public class TestString {
+public class TestStringBuildder {
 
 }
