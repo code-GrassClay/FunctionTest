@@ -14,8 +14,7 @@ public class Propaedeutics {
 	}
 
 	public static void test3() {
-		// TODO Auto-generated method stub
-		
+		//打印语句会在控制台输出
 	}
 
 	public static void test2() {
