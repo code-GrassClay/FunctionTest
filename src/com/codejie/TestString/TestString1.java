@@ -1,7 +1,7 @@
 package com.codejie.TestString;
 /**
  * 
- * @author Jiemeel
+ * @author codejie
  * String 类代表字符串。
  * Java 程序中的所有字符串字面值（如 "abc" ）都作为此类的实例实现。 
  * 字符串是常量；它们的值在创建之后不能更改。
@@ -29,5 +29,6 @@ public class TestString1 {
 		java.lang.Error: Unresolved compilation problem: 
 		Cannot invoke equals(String) on the primitive type null
 		*/
+		
 	}
 }

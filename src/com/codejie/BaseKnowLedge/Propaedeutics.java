@@ -1,5 +1,11 @@
 package com.codejie.BaseKnowLedge;
-
+/**
+ * 
+ * @author codejie
+ * 标识符
+ * 注释
+ * 打印语句
+ */
 public class Propaedeutics {
 	public static void main(String[] args) {
 		test1();
@@ -30,7 +36,7 @@ public class Propaedeutics {
 		//$开头
 		int $a1 = 5;
 		//数字开头
-		// int 2ac = 3; //编译报错
+//		int 2ac = 3; //编译报错
 	}
 
 	public static void test1() {
