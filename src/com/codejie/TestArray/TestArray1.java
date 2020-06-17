@@ -51,22 +51,35 @@ public class TestArray1 {
 		int start = 0;
 		int end = arr.length-1;
 		System.out.println("总长度"+arr.length);
-		while((end-start)>1) {
-			int middle = (end+start)/2+1;
-			System.out.println("第"+middle+"位的"+arr[middle]);
-			if(arr.length%2 == 0) {
-				if(num == arr[middle]) {
-					return middle;
-				}else if(num < arr[middle]) {
-					end = middle;
-				}else if(num > arr[middle]) {
-					start = middle;
+		while(true) {
+			if((end-start)>1) { //如果中间至少还有一位，则取中间值比较
+				int middle = (end+start)/2;
+				System.out.println("第"+middle+"位的"+arr[middle]+"是不是？");
+				if(arr.length%2 == 0) {
+					if(num == arr[middle]) {
+						System.out.println("是它！！");
+						return middle;
+					}else if(num < arr[middle]) {
+						System.out.println("不是");
+						end = middle;
+					}else if(num > arr[middle]) {
+						System.out.println("不是");
+						start = middle;
+					}
 				}
-			}else {
-				
+			}else { // 如果中间一位都没有了，则取最后两头的比较
+				if(num == arr[start]) {
+					System.out.println("是第"+start+"位的"+arr[start]);
+					return start;
+				}else if(num == arr[end]) {
+					System.out.println("第"+end+"位的"+arr[end]);
+					return end;
+				}else {
+					System.out.println("找完了，没有！！");
+					return -1;
+				}
 			}
 		}
-		return -1;
 	}
 
 	private static int[] invertSort(int[] arr) {
