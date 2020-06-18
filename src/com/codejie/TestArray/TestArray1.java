@@ -35,6 +35,7 @@ public class TestArray1 {
 			System.out.println("该数字在第"+index+"位");
 		}
 		System.out.println("\n"+System.nanoTime());
+		scanner.close();
 	}
 	/**
 	 * 
@@ -81,7 +82,12 @@ public class TestArray1 {
 			}
 		}
 	}
-
+	/**
+	 * 
+	 * @param arr
+	 * @return
+	 * 排倒序
+	 */
 	private static int[] invertSort(int[] arr) {
 		for(int j=0;j<arr.length-1;j++) { //循环length-1轮比较
 			for(int i=0;i<arr.length-j;i++) { //每一位与前一位比较，每一轮少比较1次

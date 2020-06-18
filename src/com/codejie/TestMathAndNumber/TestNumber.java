@@ -5,6 +5,6 @@ public class TestNumber {
 		byte b = 3;
 		short s = 233;
 		int i = 1234;
-		long 
+		long l = 2345L;
 	}
 }
